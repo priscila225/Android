@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dip"
+            android:layout_gravity="left"
+            android:orientation="horizontal"
+            android:background="@drawable/background" >
+
+            <LinearLayout
+                android:layout_width="250dip"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dip"
+                android:gravity="left"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/txtLevelDiff"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Level 1 - Easy"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#ffffff" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dip"
+                android:layout_gravity="right"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/txtPoints"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:text="3/20"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#ffffff" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btnPkm1"
+                android:layout_width="60dip"
+                android:layout_height="60dip"
+                android:layout_margin="10dip"
+                android:background="@drawable/pkm_1" >
+            </Button>
+
+            <Button
+                android:id="@+id/btnPkm2"
+                android:layout_width="60dip"
+                android:layout_height="60dip"
+                android:layout_margin="10dip"
+                android:background="@drawable/pkm_1" >
+            </Button>
+
+            <Button
+                android:id="@+id/btnPkm3"
+                android:layout_width="60dip"
+                android:layout_height="60dip"
+                android:layout_margin="10dip"
+                android:background="@drawable/pkm_1" >
+            </Button>
+
+            <Button
+                android:id="@+id/btnPkm4"
+                android:layout_width="60dip"
+                android:layout_height="60dip"
+                android:layout_margin="10dip"
+                android:background="@drawable/pkm_1" >
+            </Button>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btnPkm5"
+                android:layout_width="60dip"
+                android:layout_height="60dip"
+                android:layout_margin="10dip"
+                android:background="@drawable/pkm_1" >
+            </Button>
+
+            <Button
+                android:id="@+id/btnPkm6"
+                android:layout_width="60dip"
+                android:layout_height="60dip"
+                android:layout_margin="10dip"
+                android:background="@drawable/pkm_1" >
+            </Button>
+
+            <Button
+                android:id="@+id/btnPkm7"
+                android:layout_width="60dip"
+                android:layout_height="60dip"
+                android:layout_margin="10dip"
+                android:background="@drawable/pkm_1" >
+            </Button>
+
+            <Button
+                android:id="@+id/btnPkm8"
+                android:layout_width="60dip"
+                android:layout_height="60dip"
+                android:layout_margin="10dip"
+                android:background="@drawable/pkm_1" >
+            </Button>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btnPkm9"
+                android:layout_width="60dip"
+                android:layout_height="60dip"
+                android:layout_margin="10dip"
+                android:background="@drawable/pkm_1" >
+            </Button>
+
+            <Button
+                android:id="@+id/btnPkm10"
+                android:layout_width="60dip"
+                android:layout_height="60dip"
+                android:layout_margin="10dip"
+                android:background="@drawable/pkm_1" >
+            </Button>
+
+            <Button
+                android:id="@+id/btnPkm11"
+                android:layout_width="60dip"
+                android:layout_height="60dip"
+                android:layout_margin="10dip"
+                android:background="@drawable/pkm_1" >
+            </Button>
+
+            <Button
+                android:id="@+id/btnPkm12"
+                android:layout_width="60dip"
+                android:layout_height="60dip"
+                android:layout_margin="10dip"
+                android:background="@drawable/pkm_1" >
+            </Button>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btnPkm13"
+                android:layout_width="60dip"
+                android:layout_height="60dip"
+                android:layout_margin="10dip"
+                android:background="@drawable/pkm_1" >
+            </Button>
+
+            <Button
+                android:id="@+id/btnPkm14"
+                android:layout_width="60dip"
+                android:layout_height="60dip"
+                android:layout_margin="10dip"
+                android:background="@drawable/pkm_1" >
+            </Button>
+
+            <Button
+                android:id="@+id/btnPkm15"
+                android:layout_width="60dip"
+                android:layout_height="60dip"
+                android:layout_margin="10dip"
+                android:background="@drawable/pkm_1" >
+            </Button>
+
+            <Button
+                android:id="@+id/btnPkm16"
+                android:layout_width="60dip"
+                android:layout_height="60dip"
+                android:layout_margin="10dip"
+                android:background="@drawable/pkm_1" >
+            </Button>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btnPkm17"
+                android:layout_width="60dip"
+                android:layout_height="60dip"
+                android:layout_margin="10dip"
+                android:background="@drawable/pkm_1" >
+            </Button>
+
+            <Button
+                android:id="@+id/btnPkm18"
+                android:layout_width="60dip"
+                android:layout_height="60dip"
+                android:layout_margin="10dip"
+                android:background="@drawable/pkm_1" >
+            </Button>
+
+            <Button
+                android:id="@+id/btnPkm19"
+                android:layout_width="60dip"
+                android:layout_height="60dip"
+                android:layout_margin="10dip"
+                android:background="@drawable/pkm_1" >
+            </Button>
+
+            <Button
+                android:id="@+id/btnPkm20"
+                android:layout_width="60dip"
+                android:layout_height="60dip"
+                android:layout_margin="10dip"
+                android:background="@drawable/pkm_1" >
+            </Button>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btnMenu"
+                android:layout_width="200dip"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dip"
+                android:text="@string/back" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
