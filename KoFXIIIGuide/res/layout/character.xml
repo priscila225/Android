@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#000000" >
+    <LinearLayout 
+        android:id="@+id/nameCharLayout"
+        android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical"
+	    android:layout_gravity="center_horizontal" >
+        	<TextView
+		        android:id="@+id/charName"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:textColor="#FFFFFF"
+		        android:textAppearance="?android:attr/textAppearanceLarge" />
+    </LinearLayout>
+    <LinearLayout 
+        android:id="@+id/headerCharLayout"
+        android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical"
+	    android:layout_gravity="center_horizontal" >
+
+        <ImageView
+            android:id="@+id/imgHeader"
+            android:layout_width="fill_parent"
+            android:layout_height="350dp" >
+            
+        </ImageView>
+        	
+    </LinearLayout>
+    <LinearLayout 
+        android:id="@+id/buttonsCharLayout"
+        android:layout_width="wrap_content"
+	    android:layout_height="300dp"
+	    android:orientation="horizontal"
+	    android:layout_gravity="center_horizontal" >
+		
+        <LinearLayout 
+	        android:id="@+id/button1CharLayout"
+	        android:layout_width="100dp"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal"
+		    android:layout_gravity="center_horizontal" >
+
+	            <Button
+	                android:id="@+id/button1"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="Moves" />
+
+        </LinearLayout>
+        
+        <LinearLayout 
+	        android:id="@+id/button1CharLayout"
+	        android:layout_width="100dp"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal"
+		    android:layout_gravity="center_horizontal" >
+
+	            <Button
+	                android:id="@+id/button2"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="Moves" />
+
+        </LinearLayout>
+        	
+    </LinearLayout>
+
+</LinearLayout>
