@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="syncLanguage">
+        <item name="1">english</item>
+        <item name="2">português</item>
+    </string-array>
+    <string-array name="syncLanguageValues">
+        <item name="1">1</item>
+        <item name="2">2</item>
+    </string-array>
+    <string-array name="syncDifficulty">
+        <item name="1">Easy</item>
+        <item name="2">Medium</item>
+        <item name="3">Hard</item>
+    </string-array>
+    <string-array name="syncDifficultyValues">
+        <item name="1">1</item>
+        <item name="2">2</item>
+        <item name="3">3</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="Settings " >
+        
+        <ListPreference
+            android:entries="@array/syncDifficulty"
+            android:entryValues="@array/syncDifficultyValues"
+            android:key="DIFFICULTY"
+            android:summary="Set the difficulty"
+            android:title="Select difficulty" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
